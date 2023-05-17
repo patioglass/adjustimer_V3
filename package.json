@@ -1,9 +1,10 @@
 {
-  "name": "browser-extension-react-ts-starter",
+  "name": "adjustimer_v3",
   "private": true,
-  "version": "0.1.0",
+  "version": "3.0.0",
   "scripts": {
     "dev": "run-s clean && vite",
+    "commit": "git cz",
     "build": "run-s clean && tsc && vite build && run-s firefox-build",
     "firefox-build": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node utils/scripts/mv3ToMv2Build.ts",
     "clean": "run-p clean:*",
@@ -62,6 +63,7 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.30.1",
     "eslint-plugin-simple-import-sort": "7.0.0",
+    "git-cz": "4.9.0",
     "glob": "8.0.3",
     "identity-obj-proxy": "3.0.0",
     "jest": "28.1.3",

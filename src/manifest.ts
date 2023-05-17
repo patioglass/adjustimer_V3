@@ -2,9 +2,9 @@ import { ManifestV3Export } from '@crxjs/vite-plugin';
 
 const manifest: ManifestV3Export = {
   manifest_version: 3,
-  name: 'Browser Extension TypeScript & React Starter',
-  description: 'Browser Extension, TypeScript, React',
-  version: '0.1',
+  name: 'adjustimer_v3',
+  description: '同時視聴時間表示用chrome拡張(Amazon Prime Video等)',
+  version: '3.0.0',
   background: {
     service_worker: 'src/background/index.ts',
   },
